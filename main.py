@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI(title="Public API Example")
+app = FastAPI()
 
 class Message(BaseModel):
     name: str
